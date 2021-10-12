@@ -23,7 +23,7 @@ namespace Zaytseva.Lab2.Exersise2
 
             // Объявляем y.
             double y;
-            y = 1 / 43,0 + Math.Log(Math.Abs(x / 3)) + x / 7 + Math.Min(x, -3) + Math.Cos(x / 3) / Math.Sin(x / 3) + Math.Pow(x, x);
+            y = 1 / 43.0 + Math.Log(Math.Abs(x / 3)) + x / 7 + Math.Min(x, -3) + Math.Cos(x / 3) / Math.Sin(x / 3) + Math.Pow(x, x);
 
             // Выводим информацию о значение y.
             Console.WriteLine(y);
