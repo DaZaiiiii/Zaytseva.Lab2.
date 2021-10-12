@@ -31,7 +31,7 @@ namespace задание3
 
             // Объявляем f.
             double f;
-            f = (1 / 43) + Math.Log(Math.Abs(y * 3 / 4)) + z / 7 + Math.Min(x, -3);
+            f = (1 / 43.0) + Math.Log(Math.Abs(y * 3 / 4)) + z / 7 + Math.Min(x, -3);
 
             // Выводим информацию о значение f.
             Console.WriteLine(f);
